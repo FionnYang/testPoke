@@ -4,7 +4,7 @@ import './Talktalk.css';
 const categories = ['General', 'Guides', 'FanArt', 'Events'];
 
 // API base URL configuration
-const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://pokemania-wvyd.onrender.com';
+const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : '';
 
 const TalkTalk = () => {
   const [activeCategory, setActiveCategory] = useState('General');

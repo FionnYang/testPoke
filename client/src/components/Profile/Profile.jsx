@@ -1,5 +1,5 @@
   // 환경에 따라 API 주소 자동 설정
-const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://pokemania-wvyd.onrender.com';
+const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : '';
 // // import React, { useState } from 'react';
 // // import styles from './Profile.module.css';
 // // import { useEffect } from 'react';
