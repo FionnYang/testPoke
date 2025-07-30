@@ -33,7 +33,8 @@ app.use(cors({
       'http://localhost:5173',
       'http://localhost:3000',
       'https://pokemania-wvyd.onrender.com',
-      'https://pokemania-saau.onrender.com'
+      'https://pokemania-saau.onrender.com',
+      'https://testpoke.onrender.com'
     ];
     
     // Allow all onrender.com origins or specific allowed origins
@@ -75,7 +76,8 @@ app.use(
         connectSrc: [
           "'self'",
           "https://pokeapi.co",
-          "https://pokemania-wvyd.onrender.com"
+          "https://pokemania-wvyd.onrender.com",
+          "https://testpoke.onrender.com"
         ],
         imgSrc: [
           "'self'",
@@ -88,11 +90,13 @@ app.use(
         scriptSrc: [
           "'self'",
           "https://pokemania-wvyd.onrender.com",
+          "https://testpoke.onrender.com",
           "'unsafe-inline'"
         ],
         styleSrc: [
           "'self'",
           "https://pokemania-wvyd.onrender.com",
+          "https://testpoke.onrender.com",
           "https://fonts.googleapis.com",
           "https://fonts.cdnfonts.com",
           "'unsafe-inline'"
